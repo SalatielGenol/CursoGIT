@@ -33,10 +33,16 @@ Registrar los archivos en seguimiento permanentemente en el historial de version
 git commit -m "[Breve descripcion del archivo o los cambios del mismo]"
 ```
 
-Volver a un commit especifico
+Volver a un commit especifico temporalmente
 
 ```
 git checkout id_commit | [master | headname]
+```
+
+Volver a un commit específico definitivamente. La opción hard aplica los cambios localmente
+
+```
+git reset id_commit [--hard]
 ```
 
 ### Órdenes útiles
