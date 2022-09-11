@@ -27,7 +27,7 @@ git commit -m "[Breve descripcion del archivo o los cambios del mismo]"
 Volver a un commit especifico
 
 ```
-git checkout id_commit
+git checkout id_commit | [master | headname]
 ```
 
 
@@ -37,8 +37,8 @@ Conocer el estado actual del repositorio
 git status
 ```
 
-Listar el histórico de versiones
+Listar el histórico de versiones (commits)
 
 ```
-git log --oneline
+git log
 ```
