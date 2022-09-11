@@ -6,7 +6,7 @@ Inicializar un repositorio
 git init
 ```
 
-Añadir seguimiento a un archivo o archivos
+Añadir seguimiento y/o cambios sobre un  archivo o archivos
 
 ```
 git add file1.ext file2.ext | mask | .
@@ -28,4 +28,10 @@ Conocer el estado actual del repositorio
 
 ```
 git status
+```
+
+Listar el histórico de versiones
+
+```
+git log --oneline
 ```
