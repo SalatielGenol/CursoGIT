@@ -58,3 +58,9 @@ Listar el histórico de versiones (commits)
 ```
 git log
 ```
+
+Modificar el nombre de una rama
+
+```
+git branch --move nombreActual nombreNuevo
+```
