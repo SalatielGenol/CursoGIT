@@ -24,6 +24,13 @@ Registrar los archivos en seguimiento permanentemente en el historial de version
 git commit -m "[Breve descripcion del archivo o los cambios del mismo]"
 ```
 
+Volver a un commit especifico
+
+```
+git checkout id_commit
+```
+
+
 Conocer el estado actual del repositorio
 
 ```
