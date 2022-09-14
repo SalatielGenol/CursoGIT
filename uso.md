@@ -1,3 +1,5 @@
+# Apuntes Git
+
 ### Órdenes de uso habitual
 
 - Todas las ordenes se deben ejecutar dentro del repositorio (directorio)
@@ -30,10 +32,10 @@ git rm --cached file1.ext file2.ext | mask | .
 Registrar los archivos en seguimiento permanentemente en el historial de versiones
 
 ```
-git commit -m "[Breve descripcion del archivo o los cambios del mismo]"
+git commit -m "Breve descripcion del archivo o los cambios del mismo"
 ```
 
-Volver a un commit especifico temporalmente
+Revisar un commit especifico temporalmente
 
 ```
 git checkout id_commit | [master | headname]
@@ -43,6 +45,32 @@ Volver a un commit específico definitivamente. La opción hard aplica los cambi
 
 ```
 git reset id_commit [--hard]
+```
+
+Crear una rama nueva a partir de una existente
+
+```
+git branch branch_name
+```
+
+Cambiar de rama activa
+
+```
+git checkout branch_name
+```
+
+Fusionar dos ramas
+
+```
+git checkout branch_from_merge
+git merge branch_to_merge
+```
+
+Resolución de conflictos
+
+```
+Decidir que codigo se va a quedar en el archivo y realizar un commit normal
+git commit -am "Solución al conflicto"
 ```
 
 ### Órdenes útiles
@@ -57,6 +85,12 @@ Listar el histórico de versiones (commits)
 
 ```
 git log
+```
+
+Listar las ramas disponibles
+
+```
+git branch
 ```
 
 Modificar el nombre de una rama
