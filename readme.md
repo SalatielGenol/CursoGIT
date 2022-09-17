@@ -6,7 +6,7 @@ CursoGit es una recopilación de ordenes básicas para trabajar con GIT tanto en
 
 ### Recursos
 
-[configuracion.md](configuracion.md) contiene las configuraciones necesarias y descripciones de algunos archivos básicos en el ecosistema git.
+[configuracion.md](configuracion.md) contiene la configuración básica y descripciones de algunos archivos del ecosistema git.
 
 [uso.md](uso.md) contiene las órdenes de uso habituales para trabajar con git.
 
