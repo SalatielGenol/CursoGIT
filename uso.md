@@ -125,3 +125,35 @@ Sincronizar repositorio remoto -> local
 ```
 git pull <remote_repo_name> <branch_to_pull>
 ```
+
+### Releases
+
+Listar los tags (releases) actuales del proyecto
+
+```
+git tag
+```
+
+Añadir un tag
+
+```
+git tag -a <tag_name> -m "Breve descripción del tag/release" <id_commit>
+```
+
+Eliminar un tag
+
+```
+git tag -d <tag_name>
+```
+
+Sincronizar los tags con el repositorio remoto
+
+```
+git push <remote_repo_name> --tags
+```
+
+Eliminar un tag de un repositorio remoto
+
+```
+git push <remote_repo_name> :refs/tags/<tag_name>
+```
