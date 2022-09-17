@@ -28,7 +28,6 @@ Añadir seguimiento y/o cambios sobre un  archivo o archivos
 
 ```
 git add <file1.ext> <file2.ext> | mask | .
-
 ```
 
 Descartar los cambios del archivo local
@@ -119,4 +118,10 @@ Sincronizar repositorio local -> remoto
 
 ```
 git push <remote_repo_name> <branch_to_push>
+```
+
+Sincronizar repositorio remoto -> local
+
+```
+git pull <remote_repo_name> <branch_to_pull>
 ```
