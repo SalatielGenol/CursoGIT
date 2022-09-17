@@ -14,3 +14,11 @@ echo ["file_to_ignore" | "/folder/to/ignore"] >> .gitignore
 git add .gitignore
 git commit -m "Comentario sobre .gitignore"
 ```
+
+### README.md
+
+README.md es un archivo que se ubica en la raíz del proyecto y que debe incluir una descripción del mismo, así como toda la documentación que sea relevante para entender su construcción o manejo.
+
+Se puede implementar en HTML puro o con Markdown, que es el mayormente utilizado debido a su facilidad de lectura tanto en texto plano, como interpretado mediante el navegador (a través de webs que lo permiten, como Github, etc).
+
+Un buen editor online de archivos Markdown es [Editor.md](https://pandao.github.io/editor.md/en.html)
