@@ -6,6 +6,11 @@ CursoGit es una recopilación de ordenes básicas para trabajar con GIT tanto en
 
 ### Recursos
 
+[configuracion.md](configuracion.md) contiene las configuraciones necesarias y descripciones de algunos archivos básicos en el ecosistema git.
+
+[uso.md](uso.md) contiene las órdenes de uso habituales para trabajar con git.
+
+
 Para realizar el contenido de este repositorio se ha utilizado el software de control de versiones Git, diseñado por Linus Torvalds. Que se puede instalar tanto en Linux, como en Windows, o en macOS.
 
 ##### Linux
