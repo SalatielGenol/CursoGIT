@@ -126,6 +126,13 @@ Sincronizar repositorio remoto -> local
 git pull <remote_repo_name> <branch_to_pull>
 ```
 
+Comparar cambios repositorio remoto -> local
+
+```
+git fetch
+git diff <remote_repo_name> <local_branch>
+```
+
 ### Releases
 
 Listar los tags (releases) actuales del proyecto
